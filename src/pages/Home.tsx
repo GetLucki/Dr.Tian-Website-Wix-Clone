@@ -74,6 +74,13 @@ export default function Home() {
       {/* Hero */}
       <section className="bg-cream py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center">
+            <img
+              src="/assets/Dr Tian Profile Pic"
+              alt="Dr. Tian — akupunktör i Göteborg"
+              className="rounded-sm object-cover w-full max-w-md h-[420px] shadow-lg"
+            />
+          </div>
           <div>
             <h1 className="font-serif text-4xl md:text-5xl text-forest font-semibold leading-tight mb-4">
               Välkommen till Dr. Tian Akupunktur i Göteborg
@@ -92,16 +99,9 @@ export default function Home() {
                 Läs mer och boka
               </Link>
               <a href={BOKADIREKT_URL} target="_blank" rel="noopener noreferrer" className="btn-amber">
-                Boka tid
+                Boka en konsultation
               </a>
             </div>
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="/assets/Dr Tian Profile Pic"
-              alt="Dr. Tian"
-              className="rounded-sm object-cover w-full max-w-md h-[420px] shadow-lg"
-            />
           </div>
         </div>
       </section>
@@ -142,7 +142,7 @@ export default function Home() {
       </section>
 
       {/* Conditions */}
-      <section className="bg-cream py-16">
+      <section className="bg-sage py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <img src="/assets/acupuncture.svg" alt="" className="w-10 h-10 mx-auto mb-4 opacity-50" />
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* Google Reviews */}
-      <section className="bg-white py-16" id="omdomen">
+      <section className="bg-blue-mint py-16" id="omdomen">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center gap-3 mb-3">
             <img src="/assets/google-reviews.svg" alt="Google Reviews" className="h-8" />
@@ -184,7 +184,7 @@ export default function Home() {
           <h2 className="section-heading mb-8">Vad våra patienter säger</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {reviews.map((r) => (
-              <div key={r.name} className="bg-cream rounded-sm p-5 shadow-sm">
+              <div key={r.name} className="bg-white rounded-sm p-5 shadow-sm">
                 <div className="flex items-center gap-3 mb-3">
                   <img
                     src={r.photo}

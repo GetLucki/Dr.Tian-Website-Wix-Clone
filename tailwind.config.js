@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       colors: {
         cream: '#f5f0ea',
+        sage: '#e8ede9',
+        'blue-mint': '#d4e8ec',
         forest: '#2d4a3e',
         amber: '#c8894a',
         'amber-dark': '#a86e35',

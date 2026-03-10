@@ -6,9 +6,27 @@ export default function VadArTCM() {
     <main>
       <section className="bg-cream py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="section-heading mb-8">Vad är TCM och akupunktur?</h1>
+          <h1 className="section-heading text-center mb-10">Vad är TCM och akupunktur?</h1>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div>
+              <img
+                src="/assets/earacupuncture-1510407261.jpg"
+                alt="Akupunkturbehandling — traditionell kinesisk medicin"
+                className="w-full rounded-sm shadow-md object-cover h-80 mb-6"
+              />
+              <div className="bg-white rounded-sm p-5 shadow-sm">
+                <div className="flex items-center gap-3 mb-3">
+                  <img src="/assets/yin-yang.svg" alt="" className="w-8 h-8 opacity-50" />
+                  <h3 className="font-serif text-lg font-semibold text-forest">Yin & Yang</h3>
+                </div>
+                <p className="font-sans text-sm text-text-mid leading-relaxed">
+                  Balansprincipen inom TCM – när Qi flödar fritt och yin/yang är i harmoni, är kroppen frisk.
+                  Akupunktur hjälper till att återställa detta naturliga flöde.
+                </p>
+              </div>
+            </div>
+
             <div className="space-y-5 font-sans text-text-mid leading-relaxed">
               <p>
                 TCM som är den engelska förkortningen för traditionell kinesisk medicin, är ett medicinskt
@@ -56,24 +74,6 @@ export default function VadArTCM() {
                 >
                   Jag vill veta mer
                 </a>
-              </div>
-            </div>
-
-            <div>
-              <img
-                src="/assets/Bagua.jpg"
-                alt="Traditionell kinesisk medicin"
-                className="w-full rounded-sm shadow-md object-cover h-80 mb-6"
-              />
-              <div className="bg-white rounded-sm p-5 shadow-sm">
-                <div className="flex items-center gap-3 mb-3">
-                  <img src="/assets/yin-yang.svg" alt="" className="w-8 h-8 opacity-50" />
-                  <h3 className="font-serif text-lg font-semibold text-forest">Yin & Yang</h3>
-                </div>
-                <p className="font-sans text-sm text-text-mid leading-relaxed">
-                  Balansprincipen inom TCM – när Qi flödar fritt och yin/yang är i harmoni, är kroppen frisk.
-                  Akupunktur hjälper till att återställa detta naturliga flöde.
-                </p>
               </div>
             </div>
           </div>

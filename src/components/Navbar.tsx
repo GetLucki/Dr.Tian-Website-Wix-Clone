@@ -11,8 +11,8 @@ const navLinks = [
   { label: 'Behandlingar & Priser', to: '/behandlingar-och-priser' },
   { label: 'Boka', to: '/boka' },
   { label: 'Vanliga frågor', to: '/vanliga-fragor' },
+  { label: 'Kontakt', to: '/boka' },
   { label: 'Vad är TCM?', to: '/vad-ar-kinesisk-medicin' },
-  { label: 'Kontakt', to: '/boka#kontakt' },
 ]
 
 export default function Navbar() {
